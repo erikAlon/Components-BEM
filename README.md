@@ -4,11 +4,12 @@
 Topics:
 * Naming Conventions
 * BEM
-* Constructors with ES6 class syntax
+* Constructors with "ES6 class syntax" <!--this is similar to c++ classes but not the same-->
 
 You will be turning the wireframes provided in the markups directory into a page.
 
 Using BEM, create the page with three components: `Section`, `Box`, and `Dropdown`.
+
 Using ES6 class constructors, complete the `Dropdown` component functionality.
 
 Here is some Lorem Ipsum text:

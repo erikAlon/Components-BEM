@@ -1,0 +1,14 @@
+.section {
+	display: flex;
+	flex-direction: row;
+    border: 3px solid black;
+}
+
+.section__header {
+    height: 100px;
+}
+
+.section__txt {
+	width: 100%;
+	text-align:center;
+}
