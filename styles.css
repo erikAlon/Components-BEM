@@ -29,10 +29,13 @@ body {
 }
 
 .dropdown--content {
-	display: flex;
+	display: none;
 	flex-direction: column;
 	position: absolute;
+	width: 100%;
+	padding: 5px;
 	justify-content: flex-end; /*using this property as main axis was flipped!*/
+	z-index: 1;
 }
 
 .dropdown--content a:hover {
@@ -41,4 +44,5 @@ body {
 
 .show {
 	display: flex;
+	border: 2px solid black;
 }
